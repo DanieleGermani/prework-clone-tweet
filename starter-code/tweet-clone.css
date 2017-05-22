@@ -16,18 +16,15 @@ h2 {
 
 /* Header */
 .tweet-header {
-  display: flex;
-  justify-content: space-between;
+
 }
 
 .tweet-header-user {
-  display: flex;
-  justify-content: flex-start;
+
 }
 
 .tweet-header-user-info-name {
-  display: flex;
-  justify-content: flex-start;  
+  
 }
 
 .tweet-header-user-avatar {
