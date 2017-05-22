@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We have learned a lot of new stuff about HTML and CSS. Now, we will work with an small example to practice all what we learned. We are going to clone a tweet.
+We have learned a lot of new stuff about HTML and CSS. Now, we will work with an small example to practice all what we learned. We are going to clone a tweet. A change
 
 Jack Dorsey created [Twitter](https://www.twitter.com) in 2006. Once it was ready to launch, he created his twitter account and published the following:
 
