@@ -1,0 +1,45 @@
+body {
+  background: rgb(244, 248, 249);
+  font-family: Helvetica;
+}
+
+h2 {
+  margin: 0;
+}
+
+.c-tweet {
+  background: #FFF;
+  padding: 40px;
+  border: 2px solid rgb(225, 232, 237);
+  border-radius: 8px;
+}
+
+/* Header */
+.tweet-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-header-user {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tweet-header-user-info-name {
+  display: flex;
+  justify-content: flex-start;  
+}
+
+.tweet-header-user-avatar {
+  width: 75px;
+  height: 75px;
+  background: url('img/profile-picture.jpg') no-repeat;
+}
+
+.tweet-header-follow {
+}
+
+
+/* Section */
+
+/* Footer */
