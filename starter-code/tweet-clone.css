@@ -4,11 +4,15 @@ body {
 }
 
 h2 {
-  margin: 0;
+  position: absolute;
+  top:-22px;
+  left: 19px;
+  font-size: 29px;
+
 }
 
 .c-tweet {
-  background: #FFF;
+  rgb(255, 255, 255);
   padding: 40px;
   border: 2px solid rgb(225, 232, 237);
   border-radius: 8px;
@@ -21,22 +25,82 @@ h2 {
 
 .tweet-header-user {
 
+
 }
 
 .tweet-header-user-info-name {
-  
+position: absolute;
+top:53px;
+left: 141px;
+
+}
 }
 
 .tweet-header-user-avatar {
   width: 75px;
   height: 75px;
-  background: url('img/profile-picture.jpg') no-repeat;
+
+}
+.tweet-header-user-info-slug{
+  position: absolute;
+    top: 90px;
+    left: 128px;
+    color:rgb(104, 109, 129);
+    font-size: 25px;
+}
+.tweet1{
+  color: rgb(0, 0, 0);
+font-size: 28px;
+top: 150px;
+position: absolute;
+}
+.date{
+  color: rgb(101, 116, 127);
+      top: 190px;
+      position: absolute;
+      font-size: 25px;
 }
 
-.tweet-header-follow {
+.tweet-header-follow{
+position: absolute;
+  text-align: right;
+  top: 53px;
+  left: 660px;
 }
+.validated-account{
+  position: absolute;
+  top: 0px;
+  left: 75px;
+}
+  button{
+  color: rgb(85, 172, 238);
+  width:187px ;
+  height:63px;
+text-align: center;
+font-size: 25px;
+background-color: rgb(244, 248, 249);
+border:  2px solid rgb(85, 172, 238);
 
 
-/* Section */
+   }
+   .tweet-footer{
+     color: rgb(101, 116, 127);
+     font-size: 25px;
+   }
+.reply{
+  position: absolute;
+    bottom: 350px;
+}
+.retweet{
+  position: absolute;
+bottom: 349px;
+left: 120px;
 
-/* Footer */
+}
+.favorite{
+  position: absolute;
+
+  bottom:349px;
+  left:278px;
+
+}
