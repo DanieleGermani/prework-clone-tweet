@@ -67,7 +67,7 @@ position: absolute;
 position: absolute;
   text-align: right;
   top: 53px;
-  left: 660px;
+  left: 770px;
 }
 .validated-account{
   position: absolute;
@@ -79,7 +79,7 @@ position: absolute;
   width:187px ;
   height:63px;
 text-align: center;
-font-size: 25px;
+font-size: 29px;
 background-color: rgb(244, 248, 249);
 border:  2px solid rgb(85, 172, 238);
 border-radius: 8px;
