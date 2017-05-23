@@ -1,109 +1,92 @@
 body {
-  background: rgb(244, 248, 249);
-  font-family: Helvetica;
+  background-color: rgb(244, 248, 249);
+  padding: 10px 10px 10px 10px;
+  font-family: Helvetica ;
+  font-size: 25px;
 }
+h2{
 
-h2 {
-  position: absolute;
-  top:-25px;
-  left: 19px;
-  font-size: 29px;
+  top: -70px;
+  left: 120px;
+  position: relative;
 
+}
+p{
+position: relative;
+top:-200px;
 }
 
 .c-tweet {
-  rgb(255, 255, 255);
-  padding: 40px;
-  border: 2px solid rgb(225, 232, 237);
-  border-radius: 8px;
-  width: 998px;
-height: 317px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    padding: 35px 35px 5px 35px;
+    border: 3px solid rgb(225, 232, 237);
+    border-radius: 8px;
+    width: 900px;
 }
 
-/* Header */
-.tweet-header {
-
+.foto-profilo {
+    position: relative;
+    top: -38px;
+    margin-left: 20px;
 }
 
-.tweet-header-user {
-
-
-}
-
-.tweet-header-user-info-name {
-position: absolute;
-top:53px;
-left: 155px;
-
-}
-}
-
-.tweet-header-user-avatar {
-  width: 75px;
-  height: 75px;
-
-}
-.tweet-header-user-info-slug{
+.username {
   position: absolute;
-    top: 90px;
-    left: 145px;
-    color:rgb(104, 109, 129);
-    font-size: 25px;
-}
-.tweet1{
-  color: rgb(0, 0, 0);
-font-size: 28px;
-top: 154px;
-position: absolute;
-}
-.date{
-  color: rgb(101, 116, 127);
-      top: 201px;
-      position: absolute;
-      font-size: 25px;
-}
+  top: inherit;
+  font-weight: bold;
 
-.tweet-header-follow{
-position: absolute;
-  text-align: right;
-  top: 53px;
-  left: 770px;
 }
+.account {
+    color: rgb(104, 109, 129);
+    font-size: 20px;
+    position: relative;
+    top: -135px;
+    left: 100px;
+  }
 .validated-account{
-  position: absolute;
-  top: 0px;
-  left: 87px;
+    position: relative;
+    top: -138px;
+    left: 210px;
+
 }
-  button{
+
+
+
+
+.follow{
+  float: right;
   color: rgb(85, 172, 238);
-  width:187px ;
-  height:63px;
-text-align: center;
-font-size: 29px;
-background-color: rgb(244, 248, 249);
-border:  2px solid rgb(85, 172, 238);
-border-radius: 8px;
-
-
-   }
-   .tweet-footer{
-     color: rgb(101, 116, 127);
-     font-size: 25px;
-   }
-.reply{
-  position: absolute;
-    bottom: 330px;
+  border: 2px solid rgb(85, 172, 238);
+  padding: 8px 35px 8px 25px;
+  border-radius: 8px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 245px;
 }
-.retweet{
-  position: absolute;
-bottom: 330px;
-left: 120px;
 
+
+.date {
+  position: relative;
+  top: -200px;
+  font-size: 25px;
+  color: rgb(101, 116, 127);
 }
-.favorite{
-  position: absolute;
 
-  bottom:330px;
-  left:278px;
+.bottom-text {
+  position: relative;
+  top:-206px;
+  bottom: 15px;
+  font-weight: bold;
+  color: rgb(105, 120, 130);
+}
 
+.retweet {
+  position: relative;
+  left: 10px;
+}
+
+.favorite {
+  position: relative;
+  left: 30px;
 }
