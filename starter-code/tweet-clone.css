@@ -1,29 +1,24 @@
 body{
-  background-color: rgb(244, 248, 249);
- padding: 10px 10px 10px 10px;
- font-family: Helvetica ;
- font-size: 25px;
-}
-header{
-  clear: both;
-}
-section {
-  background-color: ;
+   background-color: rgb(244, 248, 249);
+   padding: 10px 10px 10px 10px;
+   font-family: Helvetica ;
+   font-size: 23px;
 
 }
-footer {
-  font-size: 25px;
-}
+
 
 .c-tweet{
-
       background-color: rgb(255, 255, 255);
       padding: 35px 35px 5px 35px;
       border: 3px solid rgb(225, 232, 237);
       border-radius: 8px;
-      width: 900px;}
+      width: 900px;
+    }
+                       /* Header */
+
 .profile-foto{
   float: left;
+  padding: 0 30px 0 0;
 
 }
 .twitter-logo{
@@ -32,9 +27,45 @@ footer {
   padding: 8px 35px 8px 25px;
   border-radius: 8px;
   font-weight: bolder;
+  color:rgb(85, 172, 238);
 }
 .account-logo{
-  margin-left: 30px;
+  color:rgb(0, 0, 0);
+  font-size: 30px;
 }
 .account{
-    margin-left: 30px;}
+    color:rgb(104, 109, 129);
+
+  }
+
+                      /*Section*/
+  .date {
+    color:rgb(101, 116, 127);
+  }
+  pre{
+      margin-left: -7px;
+      font-size: 30px;
+      font-family: Helvetica ;
+      color: rgb(0, 0, 0)
+  }
+
+                       /*Footer*/
+
+  footer {
+    color: rgb(105, 120, 130);
+    font-size: 25px;
+  }
+  .reply{
+    color:rgb(104, 109, 129);
+    margin: 30px 0 0 0;
+    float: left;
+  }
+  .retweet{
+    margin-top: 30px;
+    margin-left: 33px;
+    float: left;
+  }
+  .favorite{
+    padding: 30px 0 0 220px;
+
+  }
