@@ -2,7 +2,6 @@ body{
    background-color: rgb(244, 248, 249);
    padding: 10px 10px 10px 10px;
    font-family: Helvetica ;
-   font-size: 23px;
 
 }
 
@@ -52,7 +51,7 @@ header{
     color: rgb(0, 0, 0);
     font-size: 33px;
     font-weight: bold;
-    font-family: helvetica;
+
 
 }
 
@@ -88,19 +87,20 @@ p{
 }
 .date{
       margin: 0 0 30px 40px;
-      font-size: 29px;
+      font-size: 26px;
       color: rgb(101, 116, 127);
 }
 .c-retweet{
+      font-size: 24px;
       color: rgb(105, 120, 130);
       margin: 0 0 40px 40px;
       font-weight: bold;
 }
 .retweet{
-       margin-left: 40px;
+       margin-left: 32px;
        font-size: 25px;
 
 }
 .favorite{
-  margin-left: 57px;
+  margin-left: 35px;
 }
