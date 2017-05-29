@@ -1,107 +1,110 @@
-body{
-   background-color: rgb(244, 248, 249);
-   padding: 10px 10px 10px 10px;
-   font-family: Helvetica ;
+body {
+  background-color: rgb(244, 248, 249);
+  padding: 10px 10px 10px 10px;
+  font-family: Helvetica;
+}
 
+.c-tweet {
+  margin-left: 75px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(225, 232, 237);
+  border-radius: 8px;
+  width: 980px;
+  height: 330px;
 }
 
 
-.c-tweet{
-      margin-left: 75px;
-      background-color: rgb(255, 255, 255);
-      border: 3px solid rgb(225, 232, 237);
-      border-radius: 8px;
-      width: 980px;
-      height: 330px;
-    }
-                       /* Header */
-header{
+/* Header */
 
+header {
   width: 100%;
   height: 35%;
 }
-.c-foto{
 
-  width:50%;
-  height: 100%;
-  float: left;
-
-}
-.c-botton-follower{
-
+.c-foto {
   width: 50%;
   height: 100%;
-  float:right;
-}
-.botton-follower{
-    margin: 40px;
-    float: right;
-    border: 2px solid rgb(85, 172, 238);
-    width: 180px;
-    height: 50px;
-    font-size: 30px;
-    padding: 10px 0 0 0;
-    text-align: center;
-    border-radius: 8px;
-    font-weight: bolder;
-    color:rgb(85, 172, 238);
-  }
-
-.nombre{
-    color: rgb(0, 0, 0);
-    font-size: 33px;
-    font-weight: bold;
-
-
+  float: left;
 }
 
-.foto{
+.c-botton-follower {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.botton-follower {
+  margin: 40px;
+  float: right;
+  border: 2px solid rgb(85, 172, 238);
+  width: 180px;
+  height: 50px;
+  font-size: 30px;
+  padding: 10px 0 0 0;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bolder;
+  color: rgb(85, 172, 238);
+}
+
+.nombre {
+  color: rgb(0, 0, 0);
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.foto {
   padding: 40px 25px 0 40px;
-  float:left;
+  float: left;
 }
-.account-logo{
+
+.account-logo {
   margin-top: 40px;
   margin-left: -66px;
 }
-.nombre-account{
-      color:rgb(104, 109, 129);
-      float: left;
-      margin-top: 80px;
-      font-weight: 500;
-      font-size: 26px;
+
+.nombre-account {
+  color: rgb(104, 109, 129);
+  float: left;
+  margin-top: 80px;
+  font-weight: 500;
+  font-size: 26px;
 }
 
 
-                       /*Footer*/
-footer{
+/*Footer*/
 
+footer {
   width: 100%;
   height: 60%;
+}
 
+h2 {
+  color: rgb(0, 0, 0);
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 400;
 }
-h2{
-    color: rgb(0, 0, 0);
-    margin-left: 40px;
-    margin-bottom: 20px;
-    font-size: 32px;
-    font-weight: 400;
-}
-.date{
-      margin: 0 0 30px 40px;
-      font-size: 26px;
-      color: rgb(101, 116, 127);
-}
-.c-retweet{
-      font-size: 24px;
-      color: rgb(105, 120, 130);
-      margin: 0 0 40px 40px;
-      font-weight: bold;
-}
-.retweet{
-       margin-left: 32px;
-       font-size: 25px;
 
+.date {
+  margin: 0 0 30px 40px;
+  font-size: 26px;
+  color: rgb(101, 116, 127);
 }
-.favorite{
+
+.c-retweet {
+  font-size: 24px;
+  color: rgb(105, 120, 130);
+  margin: 0 0 40px 40px;
+  font-weight: bold;
+}
+
+.retweet {
+  margin-left: 32px;
+  font-size: 25px;
+}
+
+.favorite {
   margin-left: 35px;
 }
