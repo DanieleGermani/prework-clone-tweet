@@ -21,7 +21,7 @@ header {
   height: 35%;
 }
 
-.c-foto {
+.c-picture {
   width: 50%;
   height: 100%;
   float: left;
@@ -47,13 +47,13 @@ header {
   color: rgb(85, 172, 238);
 }
 
-.nombre {
+.name {
   color: rgb(0, 0, 0);
   font-size: 33px;
   font-weight: bold;
 }
 
-.foto {
+.picture {
   padding: 40px 25px 0 40px;
   float: left;
 }
@@ -63,7 +63,7 @@ header {
   margin-left: -66px;
 }
 
-.nombre-account {
+.name-account {
   color: rgb(104, 109, 129);
   float: left;
   margin-top: 80px;
